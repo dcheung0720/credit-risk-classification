@@ -5,7 +5,7 @@
 * The purpose of this analysis is to predict whether a loan is high or low risk based on factors like loan size, interest rate, etc so we can ensure a stable economy.
 * The financial information in this dataset are loan size, interest rate, borrower income, debt to income ratio, derogatory marks, number of accounts,and total debt to predict whether a loan is risky or not.
 * We are prediciting "loan status" where 0 represents low risk and 1 represents high risk
-* I first analyzed the data for any anomolies and created a training and testing data sets. We trained the model with the training data set and tested with the testing data, which is agnostic tot he training data so it can be represent the model's performance as good as possible.
+* I first analyzed the data for any anomolies and created a training and testing data sets. We trained the model with the training data set and tested with the testing data, which is agnostic to the training data so it can be represent the model's performance as good as possible.
 * In this analysis, we used logistic regression to predict whether a loan is risky. Logistic regression is commonly used for binary classifcation as it can provide us with a probability.
 
 ## Results
