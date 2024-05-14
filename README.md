@@ -1,5 +1,5 @@
 # Report
-
+* All analysis code are located in the 'credit_risk_classification.ipynb' file
 ## Overview of the Analysis
 
 * The purpose of this analysis is to predict whether a loan is high or low risk based on factors like loan size, interest rate, etc so we can ensure a stable economy.
