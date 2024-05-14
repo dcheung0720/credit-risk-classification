@@ -17,9 +17,7 @@
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+* The performance depend on the problem we are trying to solve. If the goal is to identify risky loans, it is more important to predict the '1', implying a high recall score is preferred. 
+* It is recommended to use this model because the recall rate on predicting high risky loan is high. However, keep in mind the the class imbalance is high (18000: 600).
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-If you do not recommend any of the models, please justify your reasoning.
