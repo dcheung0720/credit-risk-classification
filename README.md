@@ -1,8 +1,6 @@
-# Module 12 Report Template
+# Report
 
 ## Overview of the Analysis
-
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * The purpose of this analysis is to predict whether a loan is high or low risk based on factors like loan size, interest rate, etc so we can ensure a stable economy.
 * The financial information in this dataset are loan size, interest rate, borrower income, debt to income ratio, derogatory marks, number of accounts,and total debt to predict whether a loan is risky or not.
@@ -12,10 +10,10 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logistic Regression:
+    * Accuracy: 99%. The model is able to correctly predict whether a sample is risky or low risk correctly 99% of the time.
+    * Precision: 100%. When using lowrisk as true positive: of all the classifications that the model made that are low risk, 100% of them are actually low risk. When using high risk as a true positive: of all the classfication that are high risk, 85% of them are actually high risk.
+    * Recall: 99%. When using lowrisk as true positive: of all the samples that are low risk, 99% of them are actually low risk. When using high risk as a true positive: of all the samples that are high risk, 91% of them are actually high risk.
 
 ## Summary
 
